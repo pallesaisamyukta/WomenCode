@@ -2,6 +2,7 @@ import streamlit as st
 import openai
 from scripts.retrieval import PromptGenerator
 import re
+import os
 
 # Title of the app
 st.title("WomenCode")
@@ -26,7 +27,8 @@ Ask away, and I'll do my best to assist you!
 
 # Paths and configurations
 json_path = './data/processed/chunks.json'
-openai.api_key = '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'
+
+openai.api_key = os.getenv('OPENAI_API_KEY')
 
 prompt_generator = PromptGenerator(json_path)
 
