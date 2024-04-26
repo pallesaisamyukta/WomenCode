@@ -2,6 +2,7 @@ import streamlit as st
 import openai
 from scripts.retrieval import PromptGenerator
 import re
+from dotenv import load_dotenv
 import os
 
 # Title of the app
@@ -28,8 +29,10 @@ Ask away, and I'll do my best to assist you!
 # Paths and configurations
 json_path = './data/processed/chunks.json'
 
-openai.api_key = os.getenv('OPENAI_API_KEY')
 
+load_dotenv() 
+openai.api_key = os.getenv('OPENAI_API_KEY')
+print(openai.api_key)
 prompt_generator = PromptGenerator(json_path)
 
 # Initialize chat history
