@@ -1,8 +1,8 @@
 # WomenCode
 Live at https://huggingface.co/spaces/SaiSamyuktaPalle/WomenCode
 
-Recording - Explaining the journey & brief demo - https://duke.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8a7a38dd-1fe7-4c7b-b004-b15f000b3d55
-(Attached the Presentation slides)
+Recording - Explaining the journey & brief demo - [https://duke.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8a7a38dd-1fe7-4c7b-b004-b15f000b3d55](https://duke.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3d0d19e8-d650-4e72-ba9b-b15f00315b61)
+(Attached the Presentation slides in git)
 
 ## Introduction
 ### Problem Statement:
